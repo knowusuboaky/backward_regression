@@ -5,7 +5,13 @@
 The Backward Regression Python Library is an open-source toolkit for automated feature selection in regression models. It supports both linear and logistic regression, dynamically selecting the appropriate method based on the target variable.
 
 ```python
+## installation
 pip install backwardsreg
+```
+
+```python
+## Load Package
+from backwardsreg.backward_regression import backward_regression
 ```
 
 Key Features:
