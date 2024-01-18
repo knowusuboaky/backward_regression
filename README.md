@@ -14,6 +14,17 @@ pip install backwardsreg
 from backwardsreg.backward_regression import backward_regression
 ```
 
+```python
+## With interactions included - set to True and Without Interactions included - set to False
+result, dropped_vars = backward_regression(X, y, threshold_in=0.01, threshold_out=0.05, include_interactions=True, verbose=True)
+
+## Print Selected features
+print("Final included features:", result)
+
+## Print Eliminated features
+print("Dropped variables:", dropped_vars)
+```
+
 Key Features:
 - Automated backward regression for linear and logistic regression models.
 - Inclusion and exclusion of features based on user-defined significance thresholds.
