@@ -78,8 +78,3 @@ def backward_regression(X, y, threshold_in=0.01, threshold_out=0.05, include_int
         return included_with_interactions, dropped_variables
     else:
         return included_features, dropped_variables
-
-# Example usage:
-# result, dropped_vars = backward_regression(X, y, threshold_in=0.01, threshold_out=0.05, include_interactions=False, verbose=True)
-# print("Final included features:", result)
-# print("Dropped variables:", dropped_vars)
