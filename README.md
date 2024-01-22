@@ -46,7 +46,7 @@ This library is suitable for data scientists, researchers, and practitioners wor
 ## Documentation & Examples
 For documentation and usage examples, visit the GitHub repository: https://github.com/knowusuboaky/backwardsreg
 
-Author: Kwadwo Daddy Nyame Owusu - Boakye
-Email: kwadwo.owusuboakye@outlook.com
+Author: Kwadwo Daddy Nyame Owusu - Boakye\
+Email: kwadwo.owusuboakye@outlook.com\
 License: MIT
 
